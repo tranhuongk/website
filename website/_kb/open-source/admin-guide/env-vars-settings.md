@@ -63,7 +63,7 @@ The follow is a list of settings and what they control:
 | REDASH_CORS_ACCESS_CONTROL_REQUEST_METHOD |  | GET, POST, PUT |
 | REDASH_CORS_ACCESS_CONTROL_ALLOW_HEADERS |  | Content-Type |
 | REDASH_ENABLED_QUERY_RUNNERS |  | ”,”.join(default_query_runners) |
-| REDASH_ADDITIONAL_QUERY_RUNNERS |  |  |
+| REDASH_ADDITIONAL_QUERY_RUNNERS |  | redash.query_runner.cass |
 | REDASH_DISABLED_QUERY_RUNNERS |  |  |
 | REDASH_ADHOC_QUERY_TIME_LIMIT |  | None |
 | REDASH_ENABLED_DESTINATIONS |  | ”,”.join(default_destinations) |
